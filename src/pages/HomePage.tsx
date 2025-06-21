@@ -133,10 +133,10 @@ const HomePage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <Link to="/auth" className="glow-button text-xl px-10 py-5 group">
-              Start for Free 
-              <ArrowRight className="ml-3 w-6 h-6 group-hover:translate-x-1 transition-transform" />
-            </Link>
+           <Link to="/auth" className="glow-button text-xl px-10 py-5 group flex items-center">
+  Start for Free 
+  <ArrowRight className="ml-3 w-6 h-6 transition-transform group-hover:translate-x-1" />
+</Link>
             
             <button className="flex items-center space-x-3 glass-button text-xl px-10 py-5 group">
               <Play className="w-6 h-6 group-hover:scale-110 transition-transform" />
